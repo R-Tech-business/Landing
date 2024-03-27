@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: "Microsoft PhagsPa";
+    src: url("fonts/microsoft.ttf")format("truetype");
+    background:#f0f0f0;
+}
+
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url("../imgs/bg-pattern.png");
+    width:100%;
+}
+
+.cerrobayo{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../imgs/cerrobayo.png");
+    width:100%;
+}
+
+.wkpoint{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../imgs/wkpoint.png");
+    width:100%;
+}
+
+.privblog{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../imgs/privblog.png");
+    width:100%;
+}
+
+.eshop{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../imgs/Yuppy.png");
+    width:100%;
+}
+
+.react-logo:hover{
+    position: relative;
+    animation: spin 20s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 90deg;
+    }
+    50%{
+        rotate: 180deg;
+    }
+    75%{
+        rotate:270deg;
+    }
+    100%{
+        rotate:360deg;
+    }
+}
